@@ -1,0 +1,77 @@
+q1
+Single File Programming Question
+Write the program to print even-length words in a file. The contents are already given in the header part of the code. 
+
+
+
+File Name: test.txt
+
+Input format :
+The contents of the file are already given in the header part of the code.
+
+Output format :
+The output displays the even-length words in the file.
+
+Sample test cases :
+Input 1 :
+Output 1 :
+what
+do
+stop
+from
+what
+do
+
+
+
+q2
+Single File Programming Question
+Write a program to reverse the entire string from the file. The contents are already given in the header part of the code. 
+
+
+
+File Name: input.txt
+
+Input format :
+The contents of the file are already given in the header part of the code.
+
+Output format :
+The output displays the reversed string.
+
+Sample test cases :
+Input 1 :
+Output 1 :
+sthgir namuh no egnahc etamilc fo tcapmi eht no
+tnedecerp lagel tsrif eht gnitaerc ,senotselim noitcuder snoissime
+dehsilbatse teem tsum tnemnrevog eht taht gnilur
+a sdlohpu truoc emerpus eht ,sdnalrehteN eht nI
+.)derutcip( iggohsahK lamaJ fo gnillik 8102 eht rof htaed ot
+elpoep evif secnetnes aibarA iduaS ni truoc A
+
+
+q3
+Single File Programming Question
+Write a Python program to read and print the lines from a file starting after the nth line until the end. The program should create a file named "test.txt" with the given content, take an integer n as input from the user, and then print the lines from the file starting after the nth line. For example, if n=2, print from the third line of the file.
+
+
+
+The contents of the file are already given in the header part of the code. 
+
+
+
+File Name: test.txt
+
+Input format :
+The contents of the file are already given in the header part of the code.
+
+Output format :
+The output prints the file contents starting after the nth line.
+
+Sample test cases :
+Input 1 :
+2
+Output 1 :
+It was produced as part of Nickelodeon's commitment broadcast on December 11, 2001.
+A picture book entitled The Rugrats'
+Kwanzaa was adapted from the script.
+The episode was released on VHS in 2001
