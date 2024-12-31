@@ -1,0 +1,132 @@
+q1
+Write a Python program that reads two sets of input, writes them to separate text files (input1.txt and input2.txt), and then compares these files. The program should print the common lines between the two files.
+
+Input format :
+The first input line consists of an integer n1, indicating the number of lines to be written to input1.txt.
+
+The next n1 lines contain the content to be written to input1.txt.
+
+The subsequent input line consists of an integer n2, indicating the number of lines to be written to input2.txt.
+
+The next n2 lines contain the content to be written to input2.txt.
+
+Output format :
+The output prints each line that is common between input1.txt and input2.txt.
+
+Each common line should be printed on a new line.
+
+Code constraints :
+At least one common line is present in all inputs.
+
+Sample test cases :
+Input 1 :
+3
+Python
+Programming
+Laboratory
+5
+Placement
+Training
+Laboratory
+in
+Python
+Output 1 :
+Laboratory
+Python
+Input 2 :
+1
+Hello
+2
+Hello
+World
+Output 2 :
+Hello
+
+
+q2
+Single File Programming Question
+Write a Python program that reads scores from user input, writes them to a file named scores.txt, and then reads these scores from the file. Print all scores that are equal to or greater than 90 from the file. If no such scores exist, print "0".
+
+Input format :
+The first line of input consists of an integer N, where N represents the number of scores.
+
+The second line of input consists of N integers separated by space, representing the scores.
+
+Output format :
+The output prints all scores from scores.txt that are 90 or above separated by space.﻿
+
+Code constraints :
+1 ≤ N ≤ 100
+
+1 ≤ scores ≤ 100
+
+Sample test cases :
+Input 1 :
+5
+78 98 90 45 96
+Output 1 :
+98 90 96 
+Input 2 :
+3
+68 89 75
+Output 2 :
+0
+
+
+
+q3
+
+Single File Programming Question
+Write a Python program that reads n lines of input from the user, writes them to a file named input1.txt, and then analyzes the contents of the file. The program should count and print the number of alphabets, numerics, spaces, words, and lines in the file.
+
+Input format :
+The first line of input consists of an integer n, where n represents the number of lines to be written to input1.txt.
+
+Following this, n lines of text are entered by the user, each ending with a new line.
+
+Output format :
+The output should consist of five lines displaying the following counts:
+
+
+
+"Alphabets: <count>"
+
+"Numerics: <count>"
+
+"Spaces: <count>"
+
+"Words: <count>"
+
+"Lines: <count>"
+
+
+
+Where: <count> is the respective count of alphabets, numerics, spaces, words, and lines in the file input1.txt.
+
+
+
+Refer to the sample output for formatting specifications.
+
+Sample test cases :
+Input 1 :
+4
+Python provides lots of features
+C&C++
+The programming language Python was conceived in the late 1980s
+Its implementation was started in December 1989
+Output 1 :
+Alphabets: 117
+Numerics: 8
+Spaces: 19
+Words: 23
+Lines: 4
+Input 2 :
+2
+ABC @123
+cde #9
+Output 2 :
+Alphabets: 6
+Numerics: 4
+Spaces: 2
+Words: 4
+Lines: 2
