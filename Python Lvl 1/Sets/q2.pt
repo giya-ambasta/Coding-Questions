@@ -1,0 +1,26 @@
+def is_strict_superset(a, sets):
+    # Check if A is a strict superset of all other sets
+    for s in sets:
+        # If any set is not a subset of A or is equal to A, return False
+        if not (set(a) > set(s)):
+            return False
+    return True
+
+# Main program
+def main():
+    # Read set A
+    a = input().split()
+    
+    # Read number of other sets
+    n = int(input())
+    
+    # Read other sets
+    sets = []
+    for _ in range(n):
+        sets.append(input().split())
+    
+    # Check and print result
+    print(is_strict_superset(a, sets))
+
+# Run the program
+main()
